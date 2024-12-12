@@ -1,0 +1,163 @@
+/* Reset de márgenes y paddings para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    padding: 40px 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2d3e50;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2d3e50;
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Estilos para las imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para las listas */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2d3e50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #e1e9f0;
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #5c6bc0;
+    background-color: #fff;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5c6bc0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #4e5b90;
+}
+
+/* Estilo de enlaces */
+a {
+    color: #5c6bc0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3a49a5;
+}
+
+/* Estilo para el footer o pie de página */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #888;
+}
+
+/* Efecto de transición para el hover de los elementos */
+h2, p, ul, ol {
+    transition: transform 0.3s ease;
+}
+
+h2:hover, p:hover, ul:hover, ol:hover {
+    transform: translateY(-5px);
+}

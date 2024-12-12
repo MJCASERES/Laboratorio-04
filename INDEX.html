@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PRIMER SITIO WEB</title>
+    <link rel="stylesheet" href="STYLE.css">
+</head>
+<body>
+    <h1>Mi Primer Sitio Web</h1>
+
+<h2>ACERCA DE MI</h2>
+<p>Hola, soy Maria Jose Badillo Caseres, una apasionada de la tecnología y la programación. Este es mi primer sitio web y me alegra compartirlo con ustedes.</p>
+
+<img src="nn.jpg" alt="imagen centrada" width="200">
+
+<h2>ENLACES A REDES SOCIALES</h2>
+<ul>
+    <li><a href="https://www.facebook.com/share/15GQEFzQx5/" target="_blank">Facebook</a></li>
+</ul>
+<h2>MIS HOBIES</h2>
+<ul>
+    <li>Leer libros</li>
+    <li>Jugar videojuegos</li>
+    <li>Programar proyectos personales</li>
+</ul>
+
+<h2>TAREAS PRIORITARIAS</h2>
+<ol>
+    <li>Estudiar para el examen</li>
+    <li>Comprar víveres</li>
+    <li>Practicar ejercicio</li>
+</ol>
+
+<h2>HORARIO SEMANAL</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>7:00 - 8:00</td>
+            <td>Desayuno</td>
+            <td>Desayuno</td>
+            <td>Desayuno</td>
+            <td>Desayuno</td>
+            <td>Desayuno</td>
+        </tr>
+        <tr>
+            <td>9:00 - 12:00</td>
+            <td>Estudio</td>
+            <td>Trabajo</td>
+            <td>Estudio</td>
+            <td>Trabajo</td>
+            <td>Estudio</td>
+        </tr>
+    </tbody>
+</table>
+<h2>Contacto</h2>
+<form id="contactForm">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="motivo">Numero de contacto:</label>
+    <textarea id="motivo" name="motivo" required></textarea><br><br>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+</head>
+<body>
+
+    <h1>Página Interactiva Simple</h1>
+    
+    <p id="message">Haz clic en el botón para cambiar este texto.</p>
+    <button id="changeTextButton">Cambiar texto</button>
+
+    <script>
+        // Cambiar el texto cuando se hace clic en el botón
+        document.getElementById("changeTextButton").addEventListener("click", function() {
+            document.getElementById("message").textContent = "¡El texto ha cambiado!";
+        });
+    </script>
+     
+
+
+</body>
+
+
+</body>
+</html>
